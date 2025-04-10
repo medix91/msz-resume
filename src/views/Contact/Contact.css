@@ -5,10 +5,23 @@
     text-align: center;
   }
   
-  .contact h2 {
+  .contact__card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact__card h2 {
     font-size: 2rem;
     font-weight: 600;
     color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .contact__card p {
+    font-size: 1.2rem;
+    color: #555;
     margin-bottom: 2rem;
   }
   
@@ -62,12 +75,8 @@
   .contact__confirmation {
     background-color: #f8f9fa;
     padding: 2rem;
-    border-radius: 5px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
+  }  
   .contact__confirmation p {
     font-size: 1.1rem;
     color: #333;
   }
-  
